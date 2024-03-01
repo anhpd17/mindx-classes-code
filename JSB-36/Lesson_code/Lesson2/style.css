@@ -1,0 +1,85 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sen", sans-serif;
+}
+#header {
+    height: 100px;
+    background-color: #eb5757;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nav {
+    display: flex;
+}
+
+#nav p {
+    margin: 0 12px;
+    color: white;
+    font-size: 20px;
+    padding: 12px 16px;
+}
+
+#nav p:hover {
+    background-color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+#cart i {
+    color: white;
+    font-size: 16px;
+    padding: 16px 24px;
+    background-color: black;
+    border-radius: 6px;
+}
+
+/* ---------- SLIDER -------------- */
+#slider {
+    position: relative;
+    margin-top: 100px;
+}
+.slider-img {
+    height: 70vh;
+    background-image: url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.6);
+}
+.slider-text {
+    position: absolute;
+    left: 64px;
+    top: 20%;
+    color: white;
+    width: 200px;
+}
+button {
+    outline: none;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+a {
+    text-decoration: none;
+}

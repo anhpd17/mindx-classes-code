@@ -1,0 +1,14 @@
+div {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+h3 {
+    color: yellow;
+}
+
+body {
+    background-color: black;
+}

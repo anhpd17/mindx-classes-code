@@ -1,0 +1,64 @@
+* {
+    font-family: "Coiny", system-ui;
+}
+body {
+    background-image: url("https://www.findecs.org/static/media/default%20background.64cef6450b4d2ebcd40c.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    width: 500px;
+    margin-top: 36px;
+}
+.interest-list button {
+    display: block;
+    color: white;
+    background: rgb(54, 5, 3);
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    border-width: 3px;
+    width: 46%;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.interest-list button:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(54, 5, 3) 0px 0px 10px;
+}
+
+.interest-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 14px;
+    column-gap: 14px;
+}
+.title-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.title-text img {
+    width: 400px;
+}
+.search-btn {
+    width: 100%;
+    background-color: #fff;
+    color: rgb(54, 5, 3);
+    border: 2px solid rgb(54, 5, 3);
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 24px;
+}
+
+.pink-bg {
+    background-color: pink !important;
+}
+.yellow-bg {
+    background-color: yellow !important;
+}
